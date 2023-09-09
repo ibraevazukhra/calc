@@ -1,0 +1,30 @@
+*{
+    outline: none;
+
+}
+
+.plus, .minus, .multiplication, .division{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+}
+.function{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputOne, .inputTwo{
+    padding: 10px;
+    width: 75px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+.btnResult{
+    padding: 10px;
+    border: none;
+    background-color: rgb(226, 172, 55);
+    border-radius: 5px;
+}
